@@ -61,7 +61,7 @@ export default function TipPage() {
               <h2 className="text-xl font-semibold">Recipient Address</h2>
 
               <p className="text-gray-400 text-sm font-mono">
-                {address.slice(0, 6)}...{address.slice(-4)}
+                {address?.slice(0, 6)}...{address?.slice(-4)}
               </p>
             </div>
           </div>

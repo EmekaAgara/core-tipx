@@ -10,7 +10,7 @@ export default function WalletBalance() {
       {address ? (
         <>
           <p>
-            Address: {address.slice(0, 6)}...{address.slice(-4)}
+            Address: {address?.slice(0, 6)}...{address?.slice(-4)}
           </p>
           <p>
             Balance: {balance?.formatted} {balance?.symbol}
