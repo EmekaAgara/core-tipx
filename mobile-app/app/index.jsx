@@ -234,8 +234,8 @@ const styles = StyleSheet.create({
   skipButton: {
     padding: 10,
     alignSelf: "center",
-    borderWidth: 1,
-    borderColor: "#6200ee",
+    borderWidth: 0.17,
+    borderColor: "#ffffff",
     paddingVertical: 20,
     borderRadius: 5,
     marginBottom: 15,
